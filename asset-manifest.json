@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hannes-lantz/static/css/main.4482f432.css",
-    "main.js": "/hannes-lantz/static/js/main.e3863c0b.js",
-    "static/js/787.62449090.chunk.js": "/hannes-lantz/static/js/787.62449090.chunk.js",
-    "static/media/HL.jpg": "/hannes-lantz/static/media/HL.a9520ee53b04e81f3b23.jpg",
-    "index.html": "/hannes-lantz/index.html",
-    "main.4482f432.css.map": "/hannes-lantz/static/css/main.4482f432.css.map",
-    "main.e3863c0b.js.map": "/hannes-lantz/static/js/main.e3863c0b.js.map",
-    "787.62449090.chunk.js.map": "/hannes-lantz/static/js/787.62449090.chunk.js.map"
+    "main.css": "/hanneslantz/static/css/main.4482f432.css",
+    "main.js": "/hanneslantz/static/js/main.ee2a1e08.js",
+    "static/js/787.62449090.chunk.js": "/hanneslantz/static/js/787.62449090.chunk.js",
+    "static/media/HL.jpg": "/hanneslantz/static/media/HL.a9520ee53b04e81f3b23.jpg",
+    "index.html": "/hanneslantz/index.html",
+    "main.4482f432.css.map": "/hanneslantz/static/css/main.4482f432.css.map",
+    "main.ee2a1e08.js.map": "/hanneslantz/static/js/main.ee2a1e08.js.map",
+    "787.62449090.chunk.js.map": "/hanneslantz/static/js/787.62449090.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4482f432.css",
-    "static/js/main.e3863c0b.js"
+    "static/js/main.ee2a1e08.js"
   ]
 }
