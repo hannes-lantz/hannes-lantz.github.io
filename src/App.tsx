@@ -1,29 +1,19 @@
 import React from "react";
 import logo from "./HL.jpg";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-      <div className="App-container">
-        <div className="Front-img-container">
-          <img src={logo} alt="Me" />
-        </div>
-        <h1>Hannes Lantz</h1>
-        <div className="Description">
-          <p>
-            Civilingenjörsexamen i Datateknik / Master of Science in
-            Engineering, Computer Science and Engineering
-          </p>
-          <p>
-            <a href="https://www.lth.se/utbildning/datateknik300/">
-              Studied Computer Science
-            </a> at <a href="https://www.lu.se/">Lund University</a>
-          </p>
-        </div>
-      </div>
-    </div>
+    <div>
+    <Navbar />
+    <Main />
+    <Routes>
+      <Route path="/test" element={<Main />} />
+    </Routes>
+  </div>
   );
 }
 
