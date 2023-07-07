@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header"></header>
       <div className="App-container">
-        <h1>Hannes Lantz</h1>
         <div className="Front-img-container">
           <img src={logo} alt="Me" />
         </div>
+        <h1>Hannes Lantz</h1>
         <div className="Description">
           <p>
             Civilingenjörsexamen i Datateknik / Master of Science in
