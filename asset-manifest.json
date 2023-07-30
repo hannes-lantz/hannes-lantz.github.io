@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hanneslantz/static/css/main.fbfd7a20.css",
+    "main.css": "/hanneslantz/static/css/main.5c5fa53a.css",
     "main.js": "/hanneslantz/static/js/main.657210d9.js",
     "static/js/787.62449090.chunk.js": "/hanneslantz/static/js/787.62449090.chunk.js",
     "static/media/CV_Hannes_Lantz.pdf": "/hanneslantz/static/media/CV_Hannes_Lantz.45f9a2f5fa6bb4390c7c.pdf",
@@ -8,12 +8,12 @@
     "static/media/github-mark-white.svg": "/hanneslantz/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/hanneslantz/index.html",
     "static/media/linkedin_white.svg": "/hanneslantz/static/media/linkedin_white.540f6bb939a10fe0badbc26387374d38.svg",
-    "main.fbfd7a20.css.map": "/hanneslantz/static/css/main.fbfd7a20.css.map",
+    "main.5c5fa53a.css.map": "/hanneslantz/static/css/main.5c5fa53a.css.map",
     "main.657210d9.js.map": "/hanneslantz/static/js/main.657210d9.js.map",
     "787.62449090.chunk.js.map": "/hanneslantz/static/js/787.62449090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbfd7a20.css",
+    "static/css/main.5c5fa53a.css",
     "static/js/main.657210d9.js"
   ]
 }
