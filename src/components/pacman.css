@@ -1,0 +1,51 @@
+.pacman {
+  width: 0;
+  height: 0;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 180px;
+  transition: opacity 0.5s ease, transform 0.3s ease-out;
+  opacity: 0;
+  transform: scale(0) rotate(0deg); /* Initial scale is set to 0, no rotation */
+}
+
+.pacball {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 70px;
+  right: 120px;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  box-shadow: 0 0 8px rgba(255, 255, 0, 0.5);
+}
+
+.pacball.visible {
+  opacity: 1;
+}
+
+@keyframes eatingAnimation {
+  0%,
+  50% {
+    transform: scale(1) rotate(0deg); /* Pacman open mouth position */
+  }
+  51%,
+  100% {
+    transform: scale(1) rotate(-55deg); /* Pacman close mouth position */
+  }
+}
+
+.pacman.visible {
+  opacity: 1;
+  animation: eatingAnimation 0.5s infinite alternate; /* Eating animation */
+}
