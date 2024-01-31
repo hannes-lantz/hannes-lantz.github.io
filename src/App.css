@@ -21,7 +21,9 @@ section {
 }
 
 .App-container {
-  margin: 0 2rem 0 10rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0 2rem 0 10rem;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -82,7 +84,7 @@ a:hover {
 
 .Description {
   margin-top: 4rem;
-  width: 40rem;
+  width: 35rem;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;

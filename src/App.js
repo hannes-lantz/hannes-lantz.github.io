@@ -2,12 +2,22 @@ import logo from "./assets/HL.jpg";
 import github_logo from "./assets/github-mark-white.svg";
 import linkedin_logo from "./assets/linkedin_white.svg";
 import cv from "./assets/cv.pdf";
+import background from "./assets/background.jpg";
 import Pacman from "./components/pacman";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: "no-repeat",
+        maxWidth: "100%",
+        maxHeight: "100%",
+        backgroundSize: "cover",
+      }}
+    >
       <Pacman /> {/* Include the Pacman component here */}
       <div className="Sidebar">
         <div className="Front-img-container">
