@@ -11,6 +11,7 @@ section {
   background-color: #282c34;
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 30px;
 }
@@ -20,10 +21,20 @@ section {
   pointer-events: none;
 }
 
+.Main-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the content */
+  flex-grow: 1;
+  height: 100vh; /* Ensure Main-content takes full viewport height */
+}
+
 .App-container {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 0 2rem 0 10rem;
-  width: 100%;
+  padding: 0 2rem;
+  flex: 1; /* Allow the App-container to take available space */
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,17 +43,6 @@ section {
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 .App-link {
   color: #61dafb;
 }
@@ -50,16 +50,16 @@ section {
 .Front-img-container > img {
   margin-top: 2rem;
   width: 100%;
-  max-width: 100px;
+  max-width: 180px;
 }
 
 .Sidebar {
-  height: 100%;
   text-align: center;
-  position: fixed;
   background-color: #000000;
   padding: 0 20px;
   height: 100%;
+  width: 250px; /* Set a fixed width for Sidebar */
+  box-sizing: border-box;
 }
 
 .Links {
@@ -70,6 +70,7 @@ section {
 
 .Links > a > img {
   width: 100%;
+  padding-top: 2rem;
   max-width: 50px;
 }
 
@@ -79,12 +80,14 @@ a:hover {
 
 .Button {
   width: 80px;
-  color: limegreen;
+  padding-top: 2rem;
+  color: rgb(159, 50, 205);
 }
 
 .Description {
   margin-top: 4rem;
-  width: 35rem;
+  width: 100%;
+  max-width: 35rem; /* Limit the width of the Description */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -102,5 +105,64 @@ a:hover {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .App-container {
+    padding: 0 2rem;
+  }
+
+  .Front-img-container > img {
+    width: 100%;
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Main-content {
+    flex-direction: column;
+  }
+
+  .Sidebar {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .Links {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Links > a > img {
+    max-width: 40px;
+    padding-right: 1rem;
+  }
+
+  .Description {
+    width: 100%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Welcometext {
+    font-size: 24px;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .Description {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .Button {
+    width: 60px;
+  }
+
+  .App-container {
+    padding: 0 0.5rem;
   }
 }
