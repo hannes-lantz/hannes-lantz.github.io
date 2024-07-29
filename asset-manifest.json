@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hanneslantz/static/css/main.ba512e6b.css",
+    "main.css": "/hanneslantz/static/css/main.d242e7ed.css",
     "main.js": "/hanneslantz/static/js/main.01306e57.js",
     "static/js/787.9bfac54f.chunk.js": "/hanneslantz/static/js/787.9bfac54f.chunk.js",
     "static/media/background.jpg": "/hanneslantz/static/media/background.fc3cb7bc0e7f42026527.jpg",
@@ -13,12 +13,12 @@
     "static/media/github-mark-white.svg": "/hanneslantz/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/hanneslantz/index.html",
     "static/media/linkedin_white.svg": "/hanneslantz/static/media/linkedin_white.540f6bb939a10fe0badbc26387374d38.svg",
-    "main.ba512e6b.css.map": "/hanneslantz/static/css/main.ba512e6b.css.map",
+    "main.d242e7ed.css.map": "/hanneslantz/static/css/main.d242e7ed.css.map",
     "main.01306e57.js.map": "/hanneslantz/static/js/main.01306e57.js.map",
     "787.9bfac54f.chunk.js.map": "/hanneslantz/static/js/787.9bfac54f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba512e6b.css",
+    "static/css/main.d242e7ed.css",
     "static/js/main.01306e57.js"
   ]
 }
